@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-image: url(img/holiday.jpg);
+    background-size: cover;
+}
+
+h2{
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 100px;
+}
+
+h3{
+    color: white;
+    font-size: 0.7rem;
+}
+
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    /* align-items: center ; */
+    flex-direction: center;
+    justify-content: center;
+}
+
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.day,.hour,.minute,.second{
+    font-size: 3rem;
+}
+
+@media (max-width:360px){
+    h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    h3{
+        margin-left: 10px;
+    }
+}
+
+@media (min-width:360px){
+    h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    h3{
+        margin-left: 10px;
+    }
+}
+
+@media (min-width:600px){
+    h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+@media (min-width:800px){
+    h2{
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
+@media (min-width:1000px){
+    h2{
+        font-size: 4rem;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
